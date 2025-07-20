@@ -1,0 +1,17 @@
+DATA_SUBFOLDER=data
+MODELS_SUBFOLDER=models
+OUTPUT_SUBFOLDER=outputs
+SEED=56
+IMAGE_SIZE=256
+
+DATASET_ZIP_FILENAME_01=landscape-image-colorization
+GRAY_SUBFOLDER_01=landscape Images/gray
+COLOR_SUBFOLDER_01=landscape Images/color
+
+
+DATASET_ZIP_FILENAME_02=image-colorization-dataset
+GRAY_SUBFOLDER_02=data/train_black
+COLOR_SUBFOLDER_02=data/train_color
+
+GRAY_SUBFOLDER_02_TEST=data/test_black
+COLOR_SUBFOLDER_02_TEST=data/test_color
