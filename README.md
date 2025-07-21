@@ -20,6 +20,7 @@ Docker
 Для обучения использовались сразу два датасета:
   * [theblackmamba31/landscape-image-colorization](https://www.kaggle.com/datasets/theblackmamba31/landscape-image-colorization)
   * [aayush9753/image-colorization-dataset](https://www.kaggle.com/datasets/aayush9753/image-colorization-dataset)
+
 Из этих датасетов собирается микс, который делится на тренировочный и валидационный набор - так результаты обучения получаются лучше.
 
 Приложение, демонстрирующее работы, реализовано с использованием gradio и docker.
@@ -73,6 +74,7 @@ docker run -p 7860:7860 --rm colorization-app
 * [Реставрируем фотографии с помощью нейросетей](https://habr.com/ru/companies/vk/articles/453872/)
 * [GAN-colorize-images](https://www.kaggle.com/code/yuriipolulikh/gan-colorize-images)
 * [Image Colorization Using GANs](https://www.kaggle.com/code/ziyadelshazly/image-colorization-using-gans#Fitting-with-good-results)
-* https://github.com/IlyaKuprik/ColorizeImage
-* https://github.com/jantic/DeOldify/tree/master?tab=readme-ov-file#why-three-models
+* [ColorizeImage](https://github.com/IlyaKuprik/ColorizeImage)
+* [DeOldify](https://github.com/jantic/DeOldify/)
 * [О цветовых пространствах](https://habr.com/ru/articles/181580/)
+* [Colorful Image Colorization](https://github.com/richzhang/colorization)

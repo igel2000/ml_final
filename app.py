@@ -37,7 +37,7 @@ def colorize_image(input_image):
 
 # Интерфейс
 title = "Colorization Model 09"
-description = "Загрузите черно-белое изображение, и приложение раскрасит его с помощью модели ColorizationModel09."
+description = "Загрузите черно-белое изображение, и приложение раскрасит его с помощью модели ColorizationModel."
 
 interface = gr.Interface(
     fn=colorize_image,
