@@ -43,4 +43,4 @@ COPY ./colorize_model.py .
 RUN gdown "https://drive.google.com/uc?id=1Wimklwn0BiUM4noQqaOPrGrHxVMdAcP4" -O model.pth
 
 # Запуск приложения
-CMD ["python", "app.py"]
+CMD ["python3", "app.py"]

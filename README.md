@@ -2,6 +2,14 @@
 
 Обучение модели для раскрашивания черно-белых изображений и приложения на базе gradio для демонстарции работы модели.
 
+# Технологии
+Python
+OpenCv
+PyTorch
+Gradio
+Docker
+
+
 # Подход к решению задачи
 Идея к решению задачи взята из статьи https://habr.com/ru/companies/nix/articles/342388/.
 
@@ -65,3 +73,6 @@ docker run -p 7860:7860 --rm colorization-app
 * [Реставрируем фотографии с помощью нейросетей](https://habr.com/ru/companies/vk/articles/453872/)
 * [GAN-colorize-images](https://www.kaggle.com/code/yuriipolulikh/gan-colorize-images)
 * [Image Colorization Using GANs](https://www.kaggle.com/code/ziyadelshazly/image-colorization-using-gans#Fitting-with-good-results)
+* https://github.com/IlyaKuprik/ColorizeImage
+* https://github.com/jantic/DeOldify/tree/master?tab=readme-ov-file#why-three-models
+* [О цветовых пространствах](https://habr.com/ru/articles/181580/)
